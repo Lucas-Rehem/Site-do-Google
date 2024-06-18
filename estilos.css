@@ -1,0 +1,72 @@
+#apps{
+    width: 16px;
+    height: 16px;
+    padding: 0 10px;
+}
+#conta{
+    width: 35px;
+    height: 35px;
+    padding: 0 10px;
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+#logo{
+    line-height: 0px;
+    font-size: 33pt;
+    font-family: arial;
+    text-align: center;
+    padding-block-end: 20px;
+}
+#barra{
+    width: 550px;
+    height: 43px;
+    border: 1.5px solid #d8d8d8;
+    margin: auto;
+    border-radius: 30px;
+}
+#botoes{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+.botao{
+    padding: 8px;
+    width: 150px;
+    background-color: #f9f9f9f4;
+    border-radius: 5px;
+    border: 0px solid #000;
+}
+#rodape{
+    position: fixed;
+    bottom: 0;
+    width: 100%;  
+    background-color: #f0f0f0;  
+}
+#config{
+    text-align: right;
+}
+#links{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 0 25px;
+}
+#fimpg{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content:right;
+    padding: 0 25px;
+}
+section{
+    display: flex;
+    align-items: center;
+}
+hr{
+    border: 1px solid #d8d8d8;
+}
