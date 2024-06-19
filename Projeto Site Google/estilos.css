@@ -15,11 +15,9 @@ nav{
     justify-content: right;
 }
 #logo{
-    line-height: 0px;
-    font-size: 33pt;
-    font-family: arial;
-    text-align: center;
-    padding-block-end: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #barra{
     width: 550px;
@@ -100,5 +98,13 @@ hr{
     width: 360px;
     height: 25px;
     border: 0px solid #ffffff;
+    outline: none;
     transform: translateX(-7%);
+    font-family: arial;
+    font-size: 15pt;
+}
+#fotologo{
+    width: 272px;
+    height: 92px;
+    padding-block-end: 35px;
 }
