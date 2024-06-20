@@ -108,3 +108,19 @@ hr{
     height: 92px;
     padding-block-end: 35px;
 }
+.clicavel{
+    cursor: pointer;
+}
+a{
+    color: #000;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+#barra:hover{
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+.botao:hover{
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
